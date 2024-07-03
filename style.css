@@ -1,0 +1,49 @@
+body{
+    background-image: url('/tree-736885_1280.jpg');
+    background-size: cover;
+    
+}
+
+
+.center button{ 
+
+padding: 10px 20px;
+font-size: 15px;
+font-weight: 600;
+background: #f5f5f5;
+border: none;
+border-radius: 5px;
+margin-left: 50%;
+justify-content: center;
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #f3ecec;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .container{
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    padding: 20px 30px;
+    background: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0,15);
+    border-radius: 10px;
+  }
+  .colse-btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 15px;
+    width: 15px;
+    background: #d4bdbd;
+
+  }
+  
